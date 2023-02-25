@@ -1,0 +1,59 @@
+
+.Eliminar_article{
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.567);
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    place-content: center;
+    display: none;
+
+
+}
+
+.active{
+    display: grid;
+}
+
+.btn-Delete{
+
+    
+    background-color: var(--purple);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 200ms ease;
+    border-radius: 8px;
+}
+
+.contenedor{
+    position: relative;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+.btn-Delete:hover{
+
+    background-color: var(--medium-purple);
+}
+
+
+.Eliminar__x{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Eliminar__x:hover{
+    color: rgb(170, 0, 0);
+}

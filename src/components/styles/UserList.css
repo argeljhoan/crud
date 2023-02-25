@@ -1,0 +1,29 @@
+
+.userList{
+margin-top: 40px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding: 10px;
+gap: 1rem;
+
+}
+
+@media(max-width:320px){
+    .userList{
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 1rem;
+        }
+    }
+
+    @media(max-width:680px){
+        .userList{
+            top: 40px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            gap: 1rem;
+            }
+        }
